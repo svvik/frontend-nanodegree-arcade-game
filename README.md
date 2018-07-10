@@ -1,6 +1,33 @@
-frontend-nanodegree-arcade-game
+Frontend-nanodegree-arcade-game
 ===============================
+##**Table of contents**
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+- [Instructions](#**instructions**)
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+- [Rules](#**rules**)
+
+
+##**Instructions**
+
+_Run the Game:_
+1. Clone or download repository from [https://github.com/svvik/frontend-nanodegree-arcade-game](https://github.com/svvik/frontend-nanodegree-arcade-game)
+2. Open index.html in browser
+3. Start Play Game
+
+_Play Arcade game:_
+
+In this game you have a Player and Enemies (bugs). 
+The goal of the player is to reach the water, without colliding into one of the enemies.
+The player can move:
+- left (press on your keyboard **&larr;**)
+- right (press on your keyboard **&rarr;** )
+- up (press on your keyboard **&uarr;**)
+- down (press on your keyboard **&darr;**)
+
+The enemies move in varying speeds on the paved block portion of the scene.
+
+##**Rules**
+
+Game is reset when player collides with an enemy (FAIL).
+Game is won when player reaches the water (WIN). The speed of enemies will be creasing after every your winning. But if you fail the game the speed of enemies will reset to the initial. 
+
