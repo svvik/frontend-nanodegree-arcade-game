@@ -1,13 +1,13 @@
 Frontend-nanodegree-arcade-game
 ===============================
-##**Table of contents**
+#**Table of contents**
 
 - [Instructions](#**instructions**)
 
 - [Rules](#**rules**)
 
 
-##**Instructions**
+#**Instructions**
 
 _Run the Game:_
 1. Clone or download repository from [https://github.com/svvik/frontend-nanodegree-arcade-game](https://github.com/svvik/frontend-nanodegree-arcade-game)
@@ -26,7 +26,7 @@ The player can move:
 
 The enemies move in varying speeds on the paved block portion of the scene.
 
-##**Rules**
+#**Rules**
 
 Game is reset when player collides with an enemy (FAIL).
 Game is won when player reaches the water (WIN). The speed of enemies will be creasing after every your winning. But if you fail the game the speed of enemies will reset to the initial. 
